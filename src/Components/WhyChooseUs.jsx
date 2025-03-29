@@ -1,9 +1,8 @@
 "use client"
 import React from 'react'
-import { BackgroundBeams } from "../Components/ui/background-beams";
+
 import { Cover } from './ui/cover';
-import { GlareCard } from './ui/glare-card';
-import bg from "../../public/Assets/about-bg.png"
+
 
 const WhyChooseUs = () => {
   const steps = [
