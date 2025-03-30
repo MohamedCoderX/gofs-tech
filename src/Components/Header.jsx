@@ -7,7 +7,7 @@ import { AnimatedShinyText } from './magicui/animated-shiny-text';
 
 const Header = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20">
+    <div className="w-full py-20 md:py-36 flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20">
       
       {/* Tagline */}
       <div className="flex items-center justify-center z-10">

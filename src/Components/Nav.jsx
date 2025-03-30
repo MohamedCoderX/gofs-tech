@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import '../../src/app/globals.css'
 import { Button } from './ui/button'
-import { HamIcon } from 'lucide-react'
+import { Menu,X } from 'lucide-react'
 
 
 const Nav = () => {
@@ -29,7 +29,7 @@ const Nav = () => {
 
       {/* Mobile Menu (Optional) */}
       <div className="md:hidden" onClick={()=>setnav(!nav)}>
-        <HamIcon/>
+       { nav?<X size={32}/> : <Menu size={32}/>}
        {
         nav? <ul className="md:block items-center gap-8 text-black text-lg font-semibold absolute bg-white left-0 w-full top-20 z-20 py-7">
         <li className="cursor-pointer hover:text-gray-300 transition mb-2">Home</li>
