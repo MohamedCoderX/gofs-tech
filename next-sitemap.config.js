@@ -1,6 +1,6 @@
 module.exports = {
-    siteUrl: 'https://www.gofstech.com/', 
-    generateRobotsTxt: true, 
-    trailingSlash: true,
+  siteUrl: "https://gofstech.com",
+  generateRobotsTxt: true,
+  sitemapSize: 5000,
   };
   
