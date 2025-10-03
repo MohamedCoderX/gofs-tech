@@ -6,7 +6,7 @@ import Header from '@/Components/Header'
 import Marque from '@/Components/Marque'
 import Nav from '@/Components/Nav'
 import {OurServices} from '@/Components/OurServices'
-import Ourteams from '@/Components/Ourteams'
+
 import Partner from '@/Components/Partner'
 import Projects from '@/Components/Projects'
 import TechnologiesSection from '@/Components/TechnologiesSection'
@@ -29,7 +29,7 @@ const page = () => {
       <WhyChooseUs/>
       <TechnologiesSection/>
       <Partner/>
-      <Ourteams/>
+     
    
       <Work/>
       <Testimonials/>
